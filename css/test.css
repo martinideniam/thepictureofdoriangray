@@ -1,0 +1,35 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+h1{
+    font-size: 30px;
+    color: teal;
+}
+h2{
+    font-size: 30px;
+    color: hotpink;
+}
+.red_font{
+    font-size: 30px;
+    color: red;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+}
+}
+.big.uppercase{
+    color:navy;
+}
+h1 span{
+    font-family: fantasy;
+    color: black;
+}
+h2 span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:violet;
+}
