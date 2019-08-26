@@ -1,0 +1,11 @@
+--2019-08-26 20:01:00--  https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2Fios7%2FCinema%2Fanonymous_mask1600.png
+Resolving proxy.duckduckgo.com (proxy.duckduckgo.com)... 54.75.239.212, 79.125.105.117
+Connecting to proxy.duckduckgo.com (proxy.duckduckgo.com)|54.75.239.212|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/png]
+Saving to: ‘index.html?u=https:%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2Fios7%2FCinema%2Fanonymous_mask1600.png’
+
+            index.html?     [<=>                            ]       0  --.-KB/s               index.html?u=https:%2F%     [ <=>                           ]  57.99K  --.-KB/s    in 0.08s   
+
+2019-08-26 20:01:01 (687 KB/s) - ‘index.html?u=https:%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2Fios7%2FCinema%2Fanonymous_mask1600.png’ saved [59381]
+
