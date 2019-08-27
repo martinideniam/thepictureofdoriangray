@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="icon" href="pictures/oscar.jpeg">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>The Picture of Dorian Gray</title>
     </head>
 
@@ -18,24 +19,39 @@
             <img src="pictures/oscar.jpeg">
             <p>The Picture of Dorian Gray was written by Oscar Wilde</p>
             <h2>The characters of the story are:</h2>
-            <ol>
-                <li>Dorian Gray</li>
+            <button class="accordion">Dorian Gray</button>
+            <div class="panel">
                 <p>a handsome, narcissistic young man enthralled by Lord Henry's "new" hedonism. He indulges in every pleasure and virtually every 'sin', studying its effect upon him, which eventually leads to his death.</p>
-                <li>Basil Hallward</li>
+            </div>
+            <button class="accordion">Basil Hallward</button>
+            <div class="panel">
                 <p>a deeply moral man, the painter of the portrait, and infatuated with Dorian, whose patronage realises his potential as an artist. The picture of Dorian Gray is Basil's masterpiece.</p>
-                <li>Lord Henry "Harry" Wotton</li>
+            </div>
+            <button class="accordion">Lord Henry "Harry" Wotton</button>
+            <div class="panel">
                 <p>an imperious aristocrat and a decadent dandy who espouses a philosophy of self-indulgent hedonism. Initially Basil's friend, he neglects him for Dorian's beauty. The character of witty Lord Harry is a critique of Victorian culture at the Fin de siècle – of Britain at the end of the 19th century. Lord Harry's libertine world view corrupts Dorian, who then successfully emulates him. To the aristocrat Harry, the observant artist Basil says, "You never say a moral thing, and you never do a wrong thing." Lord Henry takes pleasure in impressing, influencing, and even misleading his acquaintances (to which purpose he bends his considerable wit and eloquence) but appears not to observe his own hedonistic advice, preferring to study himself with scientific detachment. His distinguishing feature is total indifference to the consequences of his actions. Scholars generally accept the character is partly inspired by Wilde's friend Lord Ronald Gower.</p>
-                <li>Sibyl Vane</li>
+            </div>
+            <button class="accordion">Sibyl Vane</button>
+            <div class="panel">
                 <p>a talented actress and singer, she is a beautiful girl from a poor family with whom Dorian falls in love. Her love for Dorian ruins her acting ability, because she no longer finds pleasure in portraying fictional love as she is now experiencing real love in her life. She kills herself on learning that Dorian no longer loves her; at that, Lord Henry likens her to Ophelia, in Hamlet.</p>
-                <li>James Vane</li>
+            </div>
+            <button class="accordion">James Vane</button>
+            <div class="panel">
                 <p>Sibyl's brother, a sailor who leaves for Australia. He is very protective of his sister, especially as their mother cares only for Dorian's money. Believing that Dorian means to harm Sibyl, James hesitates to leave, and promises vengeance upon Dorian if any harm befalls her. After Sibyl's suicide, James becomes obsessed with killing Dorian, and stalks him, but a hunter accidentally kills James. The brother's pursuit of vengeance upon the lover (Dorian Gray), for the death of the sister (Sibyl) parallels that of Laertes vengeance against Prince Hamlet.</p>
-                <li>Alan Campbell</li>
+            </div>
+            <button class="accordion">Alan Campbell</button>
+            <div class="panel">
                 <p>chemist and one-time friend of Dorian who ended their friendship when Dorian's libertine reputation devalued such a friendship. Dorian blackmails Alan into destroying the body of the murdered Basil Hallward; Campbell later shoots himself dead.</p>
-                <li>Adrian Singleton</li>
+            </div>
+            <button class="accordion">Adrian Singleton</button>
+            <div class="panel">
                 <p>A youthful friend of Dorian's, whom he evidently introduced to opium addiction, which induced him to forge a cheque and made him a total outcast from his family and social set.</p>
-                <li>Victoria, Lady Henry Wotton</li>
+            </div>
+            <button class="accordion">Victoria, Lady Henry Wotton</button>
+            <div class="panel">
                 <p>Lord Henry's wife, whom he treats disdainfully; she later divorces him.</p>
-            </ol>
+            </div>
+
             <h2>Some quotes from the book</h2>
             <p>I do not necessarily agree with them though</p>
             <ul>
@@ -52,6 +68,22 @@
             <p>"The Picture of Dorian Gray" is one of my favorite books, because it left me doubtful about many things in life. &copy; <a target = "_blank" href = "https://twitter.com/martinideniam">MEIAM</a></p>
         </footer>
 
+        <script type="text/javascript">
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
     </body>
 
 </html>
